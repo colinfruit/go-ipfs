@@ -30,7 +30,7 @@ const (
 )
 
 // ErrPingSelf is returned when the user attempts to ping themself.
-var ErrPingSelf = errors.New("error: can't ping self")
+var ErrPingSelf = errors.New("can't ping self")
 
 var PingCmd = &cmds.Command{
 	Helptext: cmds.HelpText{
